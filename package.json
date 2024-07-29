@@ -2,7 +2,7 @@
   "name": "tapkitty-server",
   "version": "1.0.0",
   "description": "Server for tapkitty app",
-  "main": "main.ts",
+  "main": "main.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --exit-child --respawn src/main.ts --env-file .env",
     "start": "node .dist/main.js"
